@@ -1,6 +1,6 @@
 
 struct curl_slist* list = NULL;
-std::string retrieveStockData(std::string ticker) /*Ticker would be a stock ticket (i.e. AMZN, AAPL, LMT)*/
+std::string retrieveStockData(std::string ticker) /*Ticker would be the whole link with a ticker*/
 {  
     CURL* curl;
     CURLcode res;
